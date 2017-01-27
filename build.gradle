@@ -12,6 +12,6 @@ dependencies {
 
 test {
     useTestNG() {
-        suites 'src/test/resources/testng.yaml'
+        suites 'src/test/resources/mocks-testng-config.yaml'
     }
 }
